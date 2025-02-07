@@ -1,0 +1,39 @@
+/* .px-3 {
+    padding-right: 1rem ;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+} */
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* padding: 3rem; */
+    padding-left: 9rem;
+    padding-right: 9rem;
+}
+
+main {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.footer-container {
+    padding-top: 3em;
+}
+
+/* .new-blog-main {
+    background-color: red;
+} */
+
+/* .features-container {
+    display: flex;
+    align-items: center;
+} */
+
+.feature-icon {
+    padding: 1rem;
+    border-radius: 20%;
+}
