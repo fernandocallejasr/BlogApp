@@ -1,10 +1,3 @@
-/* .px-3 {
-    padding-right: 1rem ;
-    padding-left: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-} */
-
 .main-container {
     display: flex;
     flex-direction: column;
@@ -24,14 +17,28 @@ main {
     padding-top: 3em;
 }
 
-/* .new-blog-main {
-    background-color: red;
-} */
-
-/* .features-container {
+.posts-container {
     display: flex;
-    align-items: center;
-} */
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+}
+
+.posts-container form {
+    padding-top: 1em;
+    border-radius: 20%;
+}
+
+.post {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+}
+
+.blog-content {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
 
 .feature-icon {
     padding: 1rem;
